@@ -1,0 +1,15 @@
+# This repository holds ONLY the public README, licence, notices and release
+# notes. The installer is attached to a GitHub Release as an asset — never
+# committed — and no source code belongs here.
+*.exe
+*.msi
+*.zip
+*.7z
+*.cpp
+*.h
+*.hpp
+*.cmake
+CMakeLists.txt
+build*/
+dist/
+src/

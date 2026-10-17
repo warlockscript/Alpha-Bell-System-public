@@ -1,0 +1,194 @@
+================================================================================
+ Alpha-C Bell System — Third-Party Software Notices and Attributions
+================================================================================
+
+Alpha-C Bell System is proprietary software. It is distributed together with
+the third-party components listed below. Each component remains the property
+of its respective copyright holders and is licensed under its own terms, the
+full texts of which are installed alongside this file in the "licenses"
+subfolder and referenced per component.
+
+This file must be preserved with any redistribution of the product.
+
+--------------------------------------------------------------------------------
+1. Qt Toolkit — version 6.11.0
+--------------------------------------------------------------------------------
+Copyright (C) The Qt Company Ltd. and other contributors.
+License: GNU Lesser General Public License v3 (licenses/LGPL-3.0.txt, which
+         incorporates licenses/GPL-3.0.txt by reference).
+Files:   Qt6Core.dll, Qt6Gui.dll, Qt6Widgets.dll, Qt6Network.dll,
+         Qt6Multimedia.dll, Qt6Sql.dll, Qt6Svg.dll, Qt6Xml.dll,
+         Qt6WebSockets.dll, Qt6HttpServer.dll and the Qt plugin folders
+         (platforms, styles, imageformats, iconengines, sqldrivers,
+         multimedia, networkinformation, tls, platformthemes, generic).
+Source:  https://download.qt.io/official_releases/qt/6.11/
+         https://code.qt.io/cgit/qt/qtbase.git/
+
+The Qt libraries are DYNAMICALLY LINKED (separate DLL files). As required by
+the LGPL, you may replace them with your own (modified or unmodified) builds
+of the same Qt version by substituting the DLL files in the installation
+folder; the application will run against the replacement libraries. Qt itself
+incorporates further third-party components; their attributions are documented
+by The Qt Company at https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+--------------------------------------------------------------------------------
+2. FFmpeg — version 7.1.3 (LGPL build, as distributed with Qt Multimedia)
+--------------------------------------------------------------------------------
+Copyright (C) 2000-2025 the FFmpeg developers.
+License: GNU Lesser General Public License v2.1 or later
+         (licenses/LGPL-2.1.txt).
+Files:   avcodec-61.dll, avformat-61.dll, avutil-59.dll, swresample-5.dll,
+         swscale-8.dll
+Source:  https://ffmpeg.org/download.html (release 7.1)
+         Qt's build configuration: https://code.qt.io/cgit/qt/qtmultimedia.git/
+
+These libraries are DYNAMICALLY LINKED and may be replaced with compatible
+builds by substituting the DLL files, as permitted by the LGPL.
+
+--------------------------------------------------------------------------------
+3. OpenSSL — version 3.6.2
+--------------------------------------------------------------------------------
+Copyright (C) The OpenSSL Project Authors.
+License: Apache License 2.0 (licenses/Apache-2.0.txt).
+Files:   libssl-3-x64.dll, libcrypto-3-x64.dll, openssl.exe
+Source:  https://openssl-library.org/source/
+
+--------------------------------------------------------------------------------
+4. MinGW-w64 / GCC runtime libraries
+--------------------------------------------------------------------------------
+Files:   libgcc_s_seh-1.dll, libstdc++-6.dll
+Copyright (C) Free Software Foundation, Inc.
+License: GPLv3 (licenses/GPL-3.0.txt) WITH the GCC Runtime Library Exception
+         v3.1 (licenses/GCC-RUNTIME-EXCEPTION-3.1.txt), which permits their
+         use and redistribution with independent, proprietary programs.
+Source:  https://gcc.gnu.org/
+
+File:    libwinpthread-1.dll
+Copyright (C) MinGW-w64 project contributors.
+License: MIT and BSD-style permissive terms
+         (https://sourceforge.net/p/mingw-w64/mingw-w64/ci/master/tree/COPYING)
+
+--------------------------------------------------------------------------------
+5. SQLite (via the Qt SQL driver plugin)
+--------------------------------------------------------------------------------
+License: Public domain (https://sqlite.org/copyright.html). No attribution is
+required; noted here for completeness.
+
+--------------------------------------------------------------------------------
+6. DirectX Shader Compiler
+--------------------------------------------------------------------------------
+File:    dxcompiler.dll (shipped with Qt for Direct3D shader translation)
+Copyright (C) Microsoft Corporation and LLVM project contributors.
+License: Apache License 2.0 with LLVM exceptions; portions under the
+         University of Illinois/NCSA Open Source License
+         (https://github.com/microsoft/DirectXShaderCompiler/blob/main/LICENSE.TXT)
+
+--------------------------------------------------------------------------------
+7. Piper text-to-speech engine (optional "Offline TTS" install component)
+--------------------------------------------------------------------------------
+Files:   piper.exe, piper_phonemize.dll
+Copyright (c) 2022 Michael Hansen.
+License: MIT (licenses/MIT-piper.txt).
+Source:  https://github.com/rhasspy/piper
+
+--------------------------------------------------------------------------------
+8. eSpeak NG (phonemizer used by Piper; runs only inside the piper.exe process)
+--------------------------------------------------------------------------------
+Files:   espeak-ng.dll, espeak-ng-data\ (language/phoneme data)
+Copyright (C) 1995-2017 Jonathan Duddington; (C) 2013-2017 Reece H. Dunn and
+eSpeak NG contributors.
+License: GNU General Public License v3 or later (licenses/GPL-3.0.txt).
+Source:  https://github.com/espeak-ng/espeak-ng
+         (Piper-compatible build: https://github.com/rhasspy/espeak-ng)
+
+eSpeak NG is an independent program aggregated with this product. It executes
+exclusively inside the separate piper.exe process and is not linked into
+AlphaCBellSystem.exe. Complete corresponding source code for the distributed
+eSpeak NG build is available from the URLs above; on request, the publisher of
+Alpha-C Bell System will provide a copy of the source for the shipped version.
+
+--------------------------------------------------------------------------------
+9. ONNX Runtime
+--------------------------------------------------------------------------------
+Files:   onnxruntime.dll, onnxruntime_providers_shared.dll
+Copyright (c) Microsoft Corporation.
+License: MIT (licenses/MIT-onnxruntime.txt).
+Source:  https://github.com/microsoft/onnxruntime
+
+--------------------------------------------------------------------------------
+10. libtashkeel (Arabic diacritics model used by Piper)
+--------------------------------------------------------------------------------
+File:    libtashkeel_model.ort
+Copyright (c) Musharraf Omer.
+License: MIT (licenses/MIT-libtashkeel.txt).
+Source:  https://github.com/mush42/libtashkeel
+
+--------------------------------------------------------------------------------
+11. Text-to-speech voice models (Piper voices)
+--------------------------------------------------------------------------------
+All voice models below were trained and published by the Piper voices project
+(https://huggingface.co/rhasspy/piper-voices). The licence stated for each is
+the licence of its TRAINING DATASET, as recorded in that voice's MODEL_CARD.
+
+Voice:   en_US-ljspeech-high (en_US-ljspeech-high.onnx + .onnx.json)
+Dataset: LJ Speech Dataset — https://keithito.com/LJ-Speech-Dataset/
+License: Public domain.
+Note:    Trained from scratch (see "Derivation" below).
+
+Voice:   en_US-libritts_r-medium (en_US-libritts_r-medium.onnx + .onnx.json)
+Dataset: LibriTTS-R — http://www.openslr.org/141/
+License: Creative Commons Attribution 4.0 International
+         (licenses/CC-BY-4.0.txt). Attribution: LibriTTS-R corpus,
+         Koizumi et al., derived from LibriTTS (Zen et al.) and
+         LibriSpeech/LibriVox recordings.
+
+Voice:   de_DE-thorsten-medium (de_DE-thorsten-medium.onnx + .onnx.json)
+Dataset: Thorsten-Voice — https://github.com/thorstenMueller/Thorsten-Voice
+License: CC0 1.0 Universal — public domain dedication
+         (licenses/CC0-1.0.txt).
+
+Voice:   es_ES-davefx-medium (es_ES-davefx-medium.onnx + .onnx.json)
+Dataset: OHF-Voice voice-datasets —
+         https://github.com/OHF-Voice/voice-datasets
+License: CC0 1.0 Universal — public domain dedication
+         (licenses/CC0-1.0.txt).
+
+Voice:   fr_FR-siwis-medium (fr_FR-siwis-medium.onnx + .onnx.json)
+Dataset: SIWIS French Speech Synthesis Database —
+         https://datashare.is.ed.ac.uk/handle/10283/2353
+License: Creative Commons Attribution 4.0 International
+         (licenses/CC-BY-4.0.txt). Attribution: SIWIS French Speech
+         Synthesis Database, University of Edinburgh / Idiap Research
+         Institute.
+
+Voice:   it_IT-paola-medium (it_IT-paola-medium.onnx + .onnx.json)
+Dataset: Voice-Dataset-Italian —
+         https://huggingface.co/datasets/paolapersico1/Voice-Dataset-Italian
+License: CC0 1.0 Universal — public domain dedication
+         (licenses/CC0-1.0.txt). The voice's MODEL_CARD defers to the
+         dataset page, which declares "license: cc0-1.0".
+
+Derivation
+----------
+Per their MODEL_CARDs, five of the six voices above were FINE-TUNED FROM the
+Piper "en_US-lessac-medium" voice: libritts_r, thorsten, davefx, siwis and
+paola. That base voice was trained on the Lessac corpus from the Blizzard
+Challenge 2013, whose terms are published at
+https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html
+and are NOT one of the standard open licences.
+
+en_US-ljspeech-high is the only voice here trained from scratch, and is
+therefore the only one carrying no dependency on that base model. It is the
+voice used by default.
+
+--------------------------------------------------------------------------------
+Source availability / written offer
+--------------------------------------------------------------------------------
+For every LGPL- or GPL-licensed component listed above, the complete
+corresponding source code of the distributed version is publicly available at
+the URLs given per component. If any of those URLs become unavailable, the
+publisher of Alpha-C Bell System will, upon written request within three years
+of your receipt of this product, provide the complete corresponding source
+code for those components at no more than the cost of physically performing
+the distribution.
+================================================================================

@@ -1,0 +1,105 @@
+ALPHA-C BELL SYSTEM
+END-USER LICENSE AGREEMENT (EULA)
+
+IMPORTANT — READ CAREFULLY. This End-User License Agreement ("Agreement") is a
+legal agreement between you (an individual or a single organization, "You")
+and Alpha-C Bell Systems ("Publisher") for the Alpha-C Bell System software,
+including its watchdog service, bundled components, media, and documentation
+(the "Software"). By installing, copying, or using the Software you agree to
+be bound by this Agreement. If you do not agree, do not install or use the
+Software.
+
+1. LIFE-SAFETY NOTICE — READ FIRST
+   THE SOFTWARE IS A SCHEDULING, PAGING, AND SUPPLEMENTARY NOTIFICATION AID.
+   IT IS NOT A CERTIFIED FIRE-ALARM, LIFE-SAFETY, OR EMERGENCY-COMMUNICATION
+   SYSTEM. IT HAS NOT BEEN TESTED, LISTED, OR APPROVED UNDER UL 864, UL 2572,
+   EN 54, NFPA 72, OR ANY COMPARABLE STANDARD, AND IT RUNS ON GENERAL-PURPOSE
+   COMPUTERS AND NETWORKS THAT CAN FAIL WITHOUT WARNING.
+
+   YOU MUST NOT RELY ON THE SOFTWARE AS THE SOLE OR PRIMARY MEANS OF ALERTING
+   PEOPLE TO FIRE, EARTHQUAKE, LOCKDOWN, EVACUATION, OR ANY OTHER EMERGENCY.
+   You remain solely responsible for installing, maintaining, and testing all
+   code-required certified alarm and emergency systems for your premises, and
+   for regularly testing the Software (including its emergency tones, zones,
+   and schedules) if you choose to use it as a supplement to those systems.
+
+2. LICENSE GRANT
+   Subject to your compliance with this Agreement and payment of the
+   applicable fees, Publisher grants You a non-exclusive, non-transferable
+   license to install and use the Software on computer systems owned or
+   controlled by You, up to the number of installations and feature tier
+   (e.g. zone count, edition) stated in your license file or purchase
+   confirmation. A valid license file issued by Publisher is required to
+   unlock licensed features.
+
+3. RESTRICTIONS
+   Except to the extent expressly permitted by applicable law or by Section 6,
+   You must not: (a) copy (other than for backup), redistribute, sell, rent,
+   lease, sublicense, or provide the Software as a service to third parties;
+   (b) reverse engineer, decompile, or disassemble the Software; (c) modify,
+   adapt, or create derivative works of the Software; (d) remove or alter any
+   proprietary notice; or (e) bypass, disable, or circumvent the Software's
+   license validation.
+
+4. OWNERSHIP
+   The Software is licensed, not sold. Publisher and its licensors retain all
+   right, title, and interest in and to the Software. All rights not
+   expressly granted are reserved.
+
+5. PRIVACY / NO TELEMETRY
+   The Software is designed to operate on an isolated local network. It does
+   not transmit telemetry, usage data, or personal information to Publisher
+   or any third party over the internet.
+
+6. THIRD-PARTY COMPONENTS
+   The Software is distributed with third-party components (including the Qt
+   Toolkit, FFmpeg, OpenSSL, the Piper text-to-speech stack, and others)
+   licensed under their own terms, listed in "legal\THIRD-PARTY-NOTICES.txt"
+   in the installation folder together with the full license texts. Nothing
+   in this Agreement restricts any right granted to You by those third-party
+   licenses (including the LGPL right to replace the dynamically linked Qt
+   and FFmpeg libraries); to the extent of any conflict, the third-party
+   license governs the corresponding component.
+
+7. UPDATES AND SUPPORT
+   This Agreement does not entitle You to updates, upgrades, or support
+   unless separately agreed in writing with Publisher. Any update provided
+   is governed by this Agreement unless it is accompanied by different terms.
+
+8. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR
+   THAT OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE. NO ORAL OR WRITTEN
+   INFORMATION GIVEN BY PUBLISHER CREATES A WARRANTY. Some jurisdictions do
+   not allow the exclusion of implied warranties; in that case the above
+   exclusions apply to the maximum extent permitted.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, PUBLISHER SHALL NOT BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR
+   PUNITIVE DAMAGES, OR FOR LOSS OF LIFE OR PERSONAL INJURY, PROPERTY DAMAGE,
+   LOSS OF PROFITS, DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED
+   TO THE USE OF OR INABILITY TO USE THE SOFTWARE — INCLUDING ANY FAILURE,
+   DELAY, OR NON-DELIVERY OF ANY BELL, PAGE, TONE, OR EMERGENCY NOTIFICATION —
+   EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND REGARDLESS OF THE
+   THEORY OF LIABILITY. PUBLISHER'S TOTAL AGGREGATE LIABILITY UNDER THIS
+   AGREEMENT SHALL NOT EXCEED THE AMOUNT YOU PAID FOR THE SOFTWARE LICENSE.
+   THE ALLOCATION OF RISK IN THIS SECTION, TOGETHER WITH SECTION 1, IS AN
+   ESSENTIAL BASIS OF THE BARGAIN. Nothing in this Agreement excludes
+   liability that cannot be excluded under applicable law.
+
+10. TERMINATION
+   This Agreement terminates automatically if You breach it. Upon
+   termination You must cease using the Software and destroy all copies.
+   Sections 1, 4, 6, 8, 9, and 11 survive termination.
+
+11. GENERAL
+   This Agreement is the entire agreement between the parties concerning the
+   Software and supersedes prior communications. If any provision is held
+   unenforceable, the remainder stays in effect. This Agreement is governed
+   by the laws of the Republic of the Philippines, without regard to
+   conflict-of-law rules; the parties submit to the exclusive jurisdiction
+   of the competent courts of the Publisher's principal place of business.
+
+Copyright (c) 2026 Alpha-C Bell Systems. All Rights Reserved.
